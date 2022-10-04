@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4</title>
+</head>
+
+<body>
+    <script>
+        var a = prompt("Значення a:", " ");
+        var b = prompt("Значення b:", " ");
+        var op = prompt("Номер операції:", " ");
+
+        function calc(a, b, op) {
+            switch (op) {
+                case 1:
+                    return a - b;
+                // break;
+                case 2:
+                return a * b;
+                // break;
+                case 3:
+                return a / b;
+                // break;
+                default:
+                return (+a) + (+b);
+                // break;
+            }
+        }
+        alert(calc(a, b, op));
+
+    </script>
+
+</body>
+
+</html>
